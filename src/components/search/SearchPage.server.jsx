@@ -6,12 +6,12 @@ export function SearchPage({searchTerm, children}) {
     <Layout>
       <PageHeader>
         <Heading as="h1" size="copy">
-          Search
+          Buscar
         </Heading>
         <form className="relative flex w-full text-heading">
           <Input
             defaultValue={searchTerm}
-            placeholder="Search…"
+            placeholder="Buscar…"
             type="search"
             variant="search"
             name="q"

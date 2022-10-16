@@ -62,13 +62,13 @@ function HomepageContent() {
       )}
       <ProductSwimlane
         data={featuredProducts.nodes}
-        title="Featured Products"
+        title="Productos"
         divider="bottom"
       />
       {secondaryHero && <Hero {...secondaryHero} />}
       <FeaturedCollections
         data={featuredCollections.nodes}
-        title="Collections"
+        title="Colecciones"
       />
       {tertiaryHero && <Hero {...tertiaryHero} />}
     </>

@@ -165,7 +165,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
             }
             type="search"
             variant="minisearch"
-            placeholder="Search"
+            placeholder="Buscar"
             name="q"
           />
           <button type="submit" className={styles.button}>
